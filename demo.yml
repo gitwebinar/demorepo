@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
   - shell: echo hello > demo.txt
-  
+  - file: path=/home/administrator/demonew.txt state=touch  
