@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  tasks:
+  - file: path=/home/administrator/testfile.txt state=touch
+    
